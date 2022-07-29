@@ -41,7 +41,7 @@ jobs:
     steps:
       - print_pipeline_id
 
-  fail_save_job:
+  #fail_save_job:
     docker:
       - image: cimg/node:15.0.1
 
